@@ -13,7 +13,7 @@ const Login = () => {
     const [credentials, setCredentials] = useState({
         email:undefined,
         password:undefined,
-    })
+    }) 
 
     const handleChange = e => {
         setCredentials(prev=> ({...prev, [e.target.id]:e.target.value}))

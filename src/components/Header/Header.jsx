@@ -10,7 +10,7 @@ const nav__links=[
     {
         path: '/home',
         display: 'Home'
-    },
+    }, 
 
     {
         path: '/about',
